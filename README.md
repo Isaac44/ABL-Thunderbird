@@ -1,6 +1,7 @@
 # Active Blacklist - ABL
 
-Anti-spam plugin that blocks mails from selected senders
+This plugin allow you to send e-mails to be blocked by the ABL - Active BlackList.
+
 
 # Thunderbird Plugin
 Complatible with Thunderbird 78+
