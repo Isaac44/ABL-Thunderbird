@@ -1,0 +1,43 @@
+{
+    "manifest_version": 2,
+    "name": "Active Blacklist - ABL",
+    "description": "Anti-spam plugin that blocks mails from selected senders",
+    "version": "2.4",
+    "author": "Isaac C. Ferreira",
+	"default_locale" : "pt",
+    "applications": {
+        "gecko": {
+            "id": "isaac@gpesc.unifei.edu.br",
+            "strict_min_version": "78.0"
+        }
+    },
+	
+	"permissions": [
+		"accountsRead",
+		"messagesRead",
+		"menus",
+		"storage"
+	],
+
+	"background": {
+		"scripts": [
+			"background.js"
+		]
+	},
+	
+	"options_ui": {
+		"page": "pages/options.html"
+	},
+	
+	"browser_action": {
+        "default_title": "ABL",
+        "default_icon": "images/mail_32.png"
+    },
+	
+    "icons": {
+        "64": "images/mail_64.png",
+        "32": "images/mail_32.png",
+		"24": "images/mail_24.png",
+        "16": "images/mail_16.png"
+    }
+}

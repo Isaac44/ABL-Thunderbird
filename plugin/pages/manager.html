@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<!--
+ * Copyright (C) 2020 - GEPESC - Universidade Federal de Itajuba
+ *
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ -->
+
+<html>
+  <head>
+    <meta charset="UTF-8">
+	<title>BlackList Manager | ABL</title>
+	<link rel="stylesheet" href="options.css">
+  </head>
+
+  <body>
+
+<!-- Show selected sender's e-mail to be blocked -->
+<!-- style by: https://www.sanwebe.com/2014/08/css-html-forms-designs -->
+<div class="form-style-2">
+	
+	<!-- Current BlackListed -->
+	<div class="form-style-2-heading">BlackListed E-mails</div>
+		
+	<select id="address_list" class="textarea-field" size="15" />
+	
+	<br />
+	<input type="submit" style="margin-top: 10px; background: #FF1A00" id="remove_button" value="Remove Selected" />
+	
+	
+	<!-- Add custom e-mail -->
+	<div style="margin-top: 20px" class="form-style-2-heading">Add e-mail to BlackList</div>
+	
+	<label for="field1">
+		<span>E-mail</span>
+		<input type="text" style="width: 100%" class="input-field" id="email" value=""/>
+	</label>
+	
+	<input type="submit" id="add_button" value="Add to BlackList" />
+</div>
+
+<script src="database.js"></script>
+<script src="manager.js"></script>
+</body>
+</html>

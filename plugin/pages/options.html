@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<!--
+ * Copyright (C) 2020 - GEPESC - Universidade Federal de Itajuba
+ *
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ -->
+
+<html>
+  <head>
+    <meta charset="UTF-8">
+	<title>Settings ABL - Active BlackList</title>
+	<link rel="stylesheet" href="options.css">
+  </head>
+
+  <body>
+
+<!-- Show selected sender's e-mail to be blocked -->
+<!-- style by: https://www.sanwebe.com/2014/08/css-html-forms-designs -->
+<div class="form-style-2">
+	<div class="form-style-2-heading">Database Connection</div>
+	
+	<label>
+		<span>Host Address (IP)</span>
+		<input type="text" class="input-field" id="host" />
+	</label>
+	<label>
+		<span>Port</span>
+		<input type="text" class="tel-number-field" id="port" maxlength="5"/>
+	</label>
+
+	<div class="form-style-2-heading">User</div>
+	
+	<label for="field1">
+		<span>Username</span>
+		<input type="text" class="input-field" id="user" value=""/>
+	</label>
+	
+	<label for="field2">
+		<span>Password</span>
+		<input type="password" class="input-field" id="upwd" value=""/>
+	</label>
+</div>
+
+<script src="options.js"></script>
+
+</body>
+</html>

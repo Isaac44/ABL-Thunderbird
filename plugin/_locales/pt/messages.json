@@ -1,0 +1,6 @@
+{
+  "add_to_blacklist": {
+    "message": "Adicionar à Lista Negra",
+    "description": "Adiciona o remetente à Lista Negra do ABL"
+  }
+}

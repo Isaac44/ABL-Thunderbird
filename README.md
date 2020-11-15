@@ -1,5 +1,14 @@
-# plugin-antispam
-Anti spam UI for Mozilla ThunderBird
+# Active Blacklist - ABL
 
-Contains the client-side of a anti spam plugin for Mozilla ThunderBird.
-Made using JavaScript, XUL and CSS on client side.
+Anti-spam plugin that blocks mails from selected senders
+
+# Thunderbird Plugin
+Complatible with Thunderbird 78+
+
+# Screenshots
+
+![Add selected e-mail to the BlackList](screenshots/add.png)
+
+![Manage BlackList: remove/add](screenshots/manage.png)
+
+![Options](screenshots/options.png)

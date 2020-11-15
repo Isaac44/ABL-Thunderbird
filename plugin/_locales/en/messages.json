@@ -1,0 +1,6 @@
+{
+  "add_to_blacklist": {
+    "message": "Add to Blacklist",
+    "description": "Add the sender to the ABL's Blacklist."
+  }
+}
